@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> BeutyLib </title>
+</head>
+<body>
+    <h2> Resultados: {{ titulo }}  </h2>
+    <table style="border-color: black;" border="10">
+        <tr>
+            <th> Imagen </th>
+            <th> Autor </th>
+            <th> Titulo del Libro </th>
+            <th> Resena e informacion extra </th>
+
+        </tr>
+        <tr>
+            <td> {{ titulo }} </td>
+            <td style="color:brown"> {{ fecha  }} </td>
+            <td> {{ autor  }} </td>
+            <td>  </td>
+
+        </tr>
+    </table>
+
+</body>
+</html>
