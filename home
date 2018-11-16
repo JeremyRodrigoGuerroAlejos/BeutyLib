@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> BeautyLib</title>
+</head>
+ 
+
+<body>
+    <h2> Busca el libro </h2>
+    <form method="post">
+        <div>
+            <label for="titulo"> Titulo</label>
+            <input name="titulo" type="text" />
+        </div>
+        <div>
+            <label for="fecha"> Fecha de publicación</label>
+            <input name="fecha" type="text" />
+        </div>
+        <div>
+            <label for="autor"> Autor de libro</label>
+            <input name="autor" type="text" />
+        </div>
+    </form>
+    <form method="post">
+        <div>
+            <button name="post" value="bar" onclick="submit()">Submit</button>
+     
+        </div>
+    </form>
+            <button type="reset" value="Reset">Reset</button>
+    
+
+</body>
+</html>
